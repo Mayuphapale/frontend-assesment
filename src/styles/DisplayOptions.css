@@ -1,0 +1,9 @@
+/* src/styles/DisplayOptions.css */
+.display-options {
+    margin-bottom: 20px;
+  }
+  
+  .display-options select {
+    margin-right: 10px;
+    padding: 5px;
+  }
