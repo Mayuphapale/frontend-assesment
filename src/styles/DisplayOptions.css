@@ -1,9 +1,51 @@
 /* src/styles/DisplayOptions.css */
 .display-options {
-    margin-bottom: 20px;
-  }
-  
-  .display-options select {
-    margin-right: 10px;
-    padding: 5px;
-  }
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+}
+
+.display-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dropdown-section {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.dropdown-section label {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.dropdown-section select {
+  padding: 4px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

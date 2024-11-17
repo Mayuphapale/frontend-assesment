@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import DisplayOptions from './DisplayOptions';
 import KanbanBoard from './KanbanBoard';
-import { fetchTicketsAndUsers } from '../api';
+import { fetchTicketsAndUsers } from '../api.js';
 import '../styles/App.css';
 
 const App = () => {
