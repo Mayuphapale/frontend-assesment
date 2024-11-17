@@ -1,4 +1,4 @@
-// src/components/TicketCard.js
+
 import React from 'react';
 import '../styles/TicketCard.css';
 import { ReactComponent as UrgentIcon } from '../icons/SVG - Urgent Priority colour.svg';
@@ -11,6 +11,7 @@ import { ReactComponent as InProgressIcon } from '../icons/in-progress.svg';
 import { ReactComponent as DoneIcon } from '../icons/Done.svg';
 import { ReactComponent as CancelledIcon } from '../icons/Cancelled.svg';
 import { ReactComponent as BacklogIcon } from '../icons/Backlog.svg';
+import professionalImg from '../icons/professional.jpg';
 
 const TicketCard = ({ ticket,grouping }) => {
   const getPriorityIcon = (priority) => {
@@ -39,7 +40,11 @@ const TicketCard = ({ ticket,grouping }) => {
     <div className="ticket-card">
       <div style={{display:'flex', justifyContent:"space-between"}}>
       <h3 style={{color:"#666"}} >{ticket.id}</h3>
-       <img src='https://lh3.googleusercontent.com/-JpwwielaxPo/AAAAAAAAAAI/AAAAAAAAAAA/ALKGfkk0dbyLY5VpwKDv4vSqsNUuE3-93Q/photo.jpg?sz=46'  style={{height:"20px" , borderRadius: "100%"}} ></img>
+      <img 
+      src={professionalImg} 
+      alt="Professional" 
+      style={{ height: "18px", borderRadius: "100%" }} 
+    />
       </div>
       <h3>{ticket.title}</h3>
       <p> <span className="tag-circle"></span> {ticket.tag.join(', ')}</p>

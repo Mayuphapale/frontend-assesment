@@ -1,4 +1,4 @@
-// src/api/api.js
+
 import axios from 'axios';
 
 const API_URL = 'https://api.quicksell.co/v1/internal/frontend-assignment';

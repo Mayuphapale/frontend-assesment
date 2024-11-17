@@ -1,4 +1,4 @@
-// src/components/App.js
+
 import React, { useState, useEffect } from 'react';
 import DisplayOptions from './DisplayOptions';
 import KanbanBoard from './KanbanBoard';

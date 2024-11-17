@@ -1,4 +1,4 @@
-// src/components/DisplayOptions.js
+
 import React, { useState, useEffect, useRef } from 'react';
 import '../styles/DisplayOptions.css';
 import { ReactComponent as DisplayIcon } from '../icons/Display.svg';

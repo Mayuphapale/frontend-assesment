@@ -1,4 +1,4 @@
-/* src/styles/TicketCard.css */
+
 .ticket-card {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -10,8 +10,10 @@
 
 .ticket-card h3 {
   margin: 0 0 10px 0;
-  font-size: 18px;
-  color: #333;
+  font-size: 15px;
+  color: #333333;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
 }
 
 .ticket-card p {
@@ -20,13 +22,13 @@
   color: #666;
 }
 .ticket-card .ticket_id {
-  color: #666;
+  color: #afacac;
 }
 .tag-circle {
   display: inline-block;
   width: 10px;
   height: 10px;
-  background-color: rgb(185, 184, 184);
+  background-color: rgb(155, 155, 155);
   border-radius: 100%;
 
 }

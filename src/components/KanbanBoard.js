@@ -1,4 +1,4 @@
-// src/components/KanbanBoard.js
+
 import React from 'react';
 import TicketCard from './TicketCard';
 import '../styles/KanbanBoard.css';
